@@ -1,0 +1,35 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: #2b2d42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar img {
+  object-fit: contain;
+  height: 60px;
+}
+
+.navbar__left {
+  flex: 0.3;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__middle {
+  display: flex;
+  justify-content: center;
+  flex: 0.7;
+}
+
+.navbar__right {
+  flex: 0.3;
+  display: flex;
+}
+
+.navbar__link {
+  color: #bcbedc;
+  margin: auto 20px;
+}
