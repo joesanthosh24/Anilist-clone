@@ -1,0 +1,22 @@
+.banner {
+  margin-top: 40px;
+  text-align: center;
+  background-color: #0a1625;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  border-radius: 20px;
+}
+
+.banner__heading {
+  color: #f0f3f6;
+  font-weight: 700;
+  padding: 50px 30px 20px;
+}
+
+.banner__description {
+  color: #acd5f2;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 auto;
+  max-width: 370px;
+}

@@ -9,13 +9,13 @@ function Navbar() {
         <img src="https://anilist.co/img/icons/icon.svg" alt="Anilist Icon" />
       </div>
       <div className="navbar__middle">
-        <p className="navbar__link">Browse</p>
-        <p className="navbar__link">Social</p>
-        <p className="navbar__link">Forum</p>
+        <a className="navbar__link">Browse</a>
+        <a className="navbar__link">Social</a>
+        <a className="navbar__link">Forum</a>
       </div>
       <div className="navbar__right">
-        <p className="navbar__link">Login</p>
-        <a href="" className="navbar__link">Sign Up</a>
+        <a className="navbar__link">Login</a>
+        <a href="" className="navbar__link navbar__signUp">Sign Up</a>
       </div>
     </div>
   );
