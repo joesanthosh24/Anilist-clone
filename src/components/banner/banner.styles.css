@@ -5,6 +5,8 @@
   margin-left: 12vw;
   margin-right: 12vw;
   border-radius: 20px;
+  height: 750px;
+  position: relative;
 }
 
 .banner__heading {
@@ -19,4 +21,50 @@
   font-weight: 500;
   margin: 0 auto;
   max-width: 370px;
+}
+
+.banner__sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px;
+}
+
+.banner__sectionsContainer {
+  display: flex;
+}
+
+.banner__button {
+  position: relative;
+  bottom: -15px;
+  left: 40%;
+  width: 200px;
+  padding: 10px;
+  border-radius: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3577ff;
+  color: white;
+  font-size: 20px;
+}
+
+.banner__button > .MuiButtonBase-root {
+  background-color: white;
+  margin-right: 0px;
+}
+
+.banner__button > .MuiButtonBase-root:hover {
+  background-color: white;
+}
+
+.banner__button > span {
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1;
+  font-weight: bolder;
+}
+
+.banner__button .MuiSvgIcon-root {
+  font-size: 24px !important;
+  color: #3577ff;
 }
