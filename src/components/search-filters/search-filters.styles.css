@@ -1,0 +1,19 @@
+.searchFilters {
+  margin-top: 70px;
+  padding: 20px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchFilters__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.searchFilters__input > input {
+  width: 100%;
+  height: 25px;
+  border: none;
+  border-radius: 8px;
+}

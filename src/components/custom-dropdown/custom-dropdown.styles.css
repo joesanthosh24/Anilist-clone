@@ -1,0 +1,12 @@
+.customDropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.customDropdown > select {
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+}
