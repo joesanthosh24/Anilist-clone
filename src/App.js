@@ -15,7 +15,10 @@ function App() {
       <Banner />
       <SearchFilters />
       <HorizontalAnimeLists />
-      {/* <TopAnimeList /> */}
+      <HorizontalAnimeLists />
+      <HorizontalAnimeLists />
+      <HorizontalAnimeLists />
+      <HorizontalAnimeLists />
     </div>
   );
 }
