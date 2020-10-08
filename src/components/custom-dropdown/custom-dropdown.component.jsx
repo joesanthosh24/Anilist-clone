@@ -8,8 +8,8 @@ const CustomDropdown = ({ labelName, choices }) => {
           <label>{labelName}</label>
           <select>
             <option></option>
-            {choices && choices.map(choice => {
-              return <option value={choice}>{choice}</option>
+            {choices && choices.map((choice, index) => {
+              return <option key={index} value={choice}>{choice}</option>
             })}
           </select>
         </div>

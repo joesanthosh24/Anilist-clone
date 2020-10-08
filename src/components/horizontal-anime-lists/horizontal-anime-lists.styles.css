@@ -9,7 +9,7 @@
   margin-left: 40px;
 }
 
-.horizontalAnimeLists__sectionDesc span {
+.horizontalAnimeLists__sectionDesc > p#view-all {
   cursor: pointer;
 }
 
@@ -20,6 +20,7 @@
   margin-left: 8vw;
   margin-right: 8vw;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .horizontalAnimeLists__animeContainer {
